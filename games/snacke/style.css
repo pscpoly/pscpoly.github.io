@@ -1,0 +1,27 @@
+html,body {
+    margin:0;
+    padding:0;
+      width:100%;
+      height:100%;
+  }
+  html {
+    display:table;
+  }
+  body {
+    display:table-cell;
+    vertical-align:middle;
+  }
+  div.main {
+      position:relative;
+    width:500px;
+    height:500px;
+    background-color:#dddddd;
+    border:1px solid #000000;
+    margin:0 auto;
+  }
+  div.snake_block, div.candy_block {
+      display:inline-block;
+      background-color:#000000;
+      border:1px solid #dddddd;
+      position:absolute;
+  }
